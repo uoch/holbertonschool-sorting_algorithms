@@ -40,12 +40,6 @@ void print_list(const listint_t *list)
     }
     printf("\n");
 }
-void action(int *xp, int *yp)
-{
-    int temp = *xp;
-    *xp = *yp;
-    *yp = temp;
-}
 /**
  * create_listint - Creates a doubly linked list from an array of integers
  *
