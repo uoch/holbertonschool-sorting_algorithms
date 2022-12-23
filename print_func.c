@@ -40,7 +40,7 @@ void print_list(const listint_t *list)
     }
     printf("\n");
 }
-void swap(int *xp, int *yp)
+void swapint(int *xp, int *yp)
 {
     int temp = *xp;
     *xp = *yp;
